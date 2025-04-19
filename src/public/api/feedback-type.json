@@ -1,0 +1,7 @@
+[
+    { "type": "Good", "value": 40 },
+    { "type": "Moderate", "value": 30 },
+    { "type": "Normal", "value": 20 },
+    { "type": "Bad", "value": 10 }
+  ]
+  
