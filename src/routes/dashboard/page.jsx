@@ -174,15 +174,7 @@ const DashboardPage = () => {
           </BarChart>
         </BarContainer>
       </div>
-
-      
-  
     </div>
-
-
-
-
-    
   );
 };
 
