@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer as BarContainer } from "recharts";
 import { AreaChart, Area, XAxis as AreaXAxis, YAxis as AreaYAxis, CartesianGrid as AreaGrid, Tooltip as AreaTooltip, ResponsiveContainer as AreaContainer } from "recharts";
+import FeedbackTable from "./FeedbackTable";
+
+
 
 
 
@@ -78,7 +81,7 @@ const DashboardPage = () => {
       
     };
 
-    fetchData(); // u have to call function na baby understood
+    fetchData(); // u have to call function
         
     
   },[]);
@@ -156,6 +159,7 @@ const DashboardPage = () => {
 
 
 
+      
       {/* Feedback Count Bar Chart */}
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold mb-4">Feedback Count</h2>
@@ -170,7 +174,15 @@ const DashboardPage = () => {
           </BarChart>
         </BarContainer>
       </div>
+
+      
+      <FeedbackTable />
     </div>
+
+
+
+
+    
   );
 };
 

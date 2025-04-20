@@ -1,0 +1,24 @@
+[
+    {
+      "customer": "John Doe",
+      "feedback": "Loved the support!",
+      "rating": 5,
+      "category": "Service",
+      "date": "2025-04-17"
+    },
+    {
+      "customer": "Jane Smith",
+      "feedback": "Website could be faster.",
+      "rating": 3,
+      "category": "Performance",
+      "date": "2025-04-16"
+    },
+    {
+      "customer": "Raj Patel",
+      "feedback": "Great pricing and quality.",
+      "rating": 4,
+      "category": "Product",
+      "date": "2025-04-15"
+    }
+  ]
+  
