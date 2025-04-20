@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer as BarContainer } from "recharts";
 import { AreaChart, Area, XAxis as AreaXAxis, YAxis as AreaYAxis, CartesianGrid as AreaGrid, Tooltip as AreaTooltip, ResponsiveContainer as AreaContainer } from "recharts";
-import FeedbackTable from "./FeedbackTable";
+
 
 
 
@@ -176,7 +176,7 @@ const DashboardPage = () => {
       </div>
 
       
-      <FeedbackTable />
+  
     </div>
 
 

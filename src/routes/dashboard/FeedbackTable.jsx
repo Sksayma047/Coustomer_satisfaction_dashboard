@@ -4,11 +4,18 @@ const FeedbackTable = () => {
   const [feedbackData, setFeedbackData] = useState([]);
 
   useEffect(() => {
-    fetch("public/api/feedback-customer.json")
+    fetch("src/public/api/feedback-customer.json")
+    
       .then((res) => res.json())
       .then((data) => setFeedbackData(data))
       .catch((error) => console.error("Error fetching feedback data:", error));
+
+
+
+     
+
   }, []);
+
 
   return (
     <div className="p-4 bg-white rounded shadow overflow-x-auto">
@@ -39,4 +46,4 @@ const FeedbackTable = () => {
   );
 };
 
-export default FeedbackTable;
+export default FeedbackTable;  

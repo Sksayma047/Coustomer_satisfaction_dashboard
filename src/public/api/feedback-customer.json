@@ -1,24 +1,688 @@
 [
-    {
-      "customer": "John Doe",
-      "feedback": "Loved the support!",
-      "rating": 5,
-      "category": "Service",
-      "date": "2025-04-17"
-    },
-    {
-      "customer": "Jane Smith",
-      "feedback": "Website could be faster.",
-      "rating": 3,
-      "category": "Performance",
-      "date": "2025-04-16"
-    },
-    {
-      "customer": "Raj Patel",
-      "feedback": "Great pricing and quality.",
-      "rating": 4,
-      "category": "Product",
-      "date": "2025-04-15"
-    }
-  ]
-  
+  {
+    "customer": "John Doe",
+    "feedback": "Loved the support!",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-04-17"
+  },
+  {
+    "customer": "Jane Smith",
+    "feedback": "Website could be faster.",
+    "rating": 3,
+    "category": "Performance",
+    "date": "2025-04-16"
+  },
+  {
+    "customer": "Raj Patel",
+    "feedback": "Great pricing and quality.",
+    "rating": 4,
+    "category": "Product",
+    "date": "2025-04-15"
+  },
+  {
+    "customer": "Emily Johnson",
+    "feedback": "Very satisfied with my purchase.",
+    "rating": 5,
+    "category": "Product",
+    "date": "2025-04-14"
+  },
+  {
+    "customer": "Michael Brown",
+    "feedback": "Delivery was late but product is good.",
+    "rating": 3,
+    "category": "Delivery",
+    "date": "2025-04-13"
+  },
+  {
+    "customer": "Sarah Williams",
+    "feedback": "Excellent customer service!",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-04-12"
+  },
+  {
+    "customer": "David Jones",
+    "feedback": "Mobile app needs improvement.",
+    "rating": 2,
+    "category": "App",
+    "date": "2025-04-11"
+  },
+  {
+    "customer": "Lisa Garcia",
+    "feedback": "Will definitely buy again.",
+    "rating": 5,
+    "category": "Product",
+    "date": "2025-04-10"
+  },
+  {
+    "customer": "Robert Martinez",
+    "feedback": "Average experience overall.",
+    "rating": 3,
+    "category": "General",
+    "date": "2025-04-09"
+  },
+  {
+    "customer": "Jennifer Lee",
+    "feedback": "Product didn't meet expectations.",
+    "rating": 2,
+    "category": "Product",
+    "date": "2025-04-08"
+  },
+  {
+    "customer": "Thomas Wilson",
+    "feedback": "Fast shipping, good packaging.",
+    "rating": 4,
+    "category": "Delivery",
+    "date": "2025-04-07"
+  },
+  {
+    "customer": "Maria Anderson",
+    "feedback": "Helpful support team.",
+    "rating": 4,
+    "category": "Service",
+    "date": "2025-04-06"
+  },
+  {
+    "customer": "James Taylor",
+    "feedback": "Website navigation is confusing.",
+    "rating": 2,
+    "category": "Usability",
+    "date": "2025-04-05"
+  },
+  {
+    "customer": "Patricia Thomas",
+    "feedback": "Best value for money.",
+    "rating": 5,
+    "category": "Pricing",
+    "date": "2025-04-04"
+  },
+  {
+    "customer": "Christopher Hernandez",
+    "feedback": "Product broke after a week.",
+    "rating": 1,
+    "category": "Quality",
+    "date": "2025-04-03"
+  },
+  {
+    "customer": "Linda Moore",
+    "feedback": "Loyal customer for years!",
+    "rating": 5,
+    "category": "Loyalty",
+    "date": "2025-04-02"
+  },
+  {
+    "customer": "Daniel Clark",
+    "feedback": "Checkout process was smooth.",
+    "rating": 4,
+    "category": "Checkout",
+    "date": "2025-04-01"
+  },
+  {
+    "customer": "Elizabeth Lewis",
+    "feedback": "Too many emails from marketing.",
+    "rating": 2,
+    "category": "Communication",
+    "date": "2025-03-31"
+  },
+  {
+    "customer": "Matthew Walker",
+    "feedback": "Excellent product quality.",
+    "rating": 5,
+    "category": "Quality",
+    "date": "2025-03-30"
+  },
+  {
+    "customer": "Susan Hall",
+    "feedback": "Return process was complicated.",
+    "rating": 2,
+    "category": "Returns",
+    "date": "2025-03-29"
+  },
+  {
+    "customer": "Kevin Young",
+    "feedback": "Recommend to friends and family.",
+    "rating": 5,
+    "category": "Referral",
+    "date": "2025-03-28"
+  },
+  {
+    "customer": "Margaret Allen",
+    "feedback": "Prices are too high.",
+    "rating": 2,
+    "category": "Pricing",
+    "date": "2025-03-27"
+  },
+  {
+    "customer": "Steven King",
+    "feedback": "Quick response to my query.",
+    "rating": 4,
+    "category": "Service",
+    "date": "2025-03-26"
+  },
+  {
+    "customer": "Dorothy Wright",
+    "feedback": "Product looks better in photos.",
+    "rating": 3,
+    "category": "Product",
+    "date": "2025-03-25"
+  },
+  {
+    "customer": "Joseph Scott",
+    "feedback": "Mobile app crashes frequently.",
+    "rating": 1,
+    "category": "App",
+    "date": "2025-03-24"
+  },
+  {
+    "customer": "Nancy Adams",
+    "feedback": "Great selection of products.",
+    "rating": 5,
+    "category": "Selection",
+    "date": "2025-03-23"
+  },
+  {
+    "customer": "Paul Baker",
+    "feedback": "Shipping costs are unreasonable.",
+    "rating": 2,
+    "category": "Delivery",
+    "date": "2025-03-22"
+  },
+  {
+    "customer": "Karen Gonzalez",
+    "feedback": "Very happy with my purchase.",
+    "rating": 5,
+    "category": "Product",
+    "date": "2025-03-21"
+  },
+  {
+    "customer": "Mark Nelson",
+    "feedback": "Customer service needs training.",
+    "rating": 2,
+    "category": "Service",
+    "date": "2025-03-20"
+  },
+  {
+    "customer": "Betty Carter",
+    "feedback": "Easy to find what I needed.",
+    "rating": 4,
+    "category": "Usability",
+    "date": "2025-03-19"
+  },
+  {
+    "customer": "Donald Mitchell",
+    "feedback": "Product manual was unclear.",
+    "rating": 3,
+    "category": "Documentation",
+    "date": "2025-03-18"
+  },
+  {
+    "customer": "Sandra Perez",
+    "feedback": "Received wrong item but quick replacement.",
+    "rating": 3,
+    "category": "Delivery",
+    "date": "2025-03-17"
+  },
+  {
+    "customer": "George Roberts",
+    "feedback": "Best customer service ever!",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-03-16"
+  },
+  {
+    "customer": "Donna Turner",
+    "feedback": "Website design is outdated.",
+    "rating": 2,
+    "category": "Design",
+    "date": "2025-03-15"
+  },
+  {
+    "customer": "Edward Phillips",
+    "feedback": "Fair prices for good quality.",
+    "rating": 4,
+    "category": "Pricing",
+    "date": "2025-03-14"
+  },
+  {
+    "customer": "Carol Campbell",
+    "feedback": "Product arrived damaged.",
+    "rating": 1,
+    "category": "Delivery",
+    "date": "2025-03-13"
+  },
+  {
+    "customer": "Jason Parker",
+    "feedback": "Loyalty program is rewarding.",
+    "rating": 5,
+    "category": "Loyalty",
+    "date": "2025-03-12"
+  },
+  {
+    "customer": "Ruth Evans",
+    "feedback": "Too much plastic packaging.",
+    "rating": 3,
+    "category": "Sustainability",
+    "date": "2025-03-11"
+  },
+  {
+    "customer": "Brian Edwards",
+    "feedback": "Helpful product recommendations.",
+    "rating": 4,
+    "category": "Service",
+    "date": "2025-03-10"
+  },
+  {
+    "customer": "Sharon Collins",
+    "feedback": "Checkout was confusing.",
+    "rating": 2,
+    "category": "Checkout",
+    "date": "2025-03-09"
+  },
+  {
+    "customer": "Ronald Stewart",
+    "feedback": "Fast delivery but poor packaging.",
+    "rating": 3,
+    "category": "Delivery",
+    "date": "2025-03-08"
+  },
+  {
+    "customer": "Michelle Sanchez",
+    "feedback": "Product exceeded expectations.",
+    "rating": 5,
+    "category": "Product",
+    "date": "2025-03-07"
+  },
+  {
+    "customer": "Gary Morris",
+    "feedback": "Hard to contact support.",
+    "rating": 2,
+    "category": "Service",
+    "date": "2025-03-06"
+  },
+  {
+    "customer": "Laura Rogers",
+    "feedback": "Clear product descriptions.",
+    "rating": 4,
+    "category": "Content",
+    "date": "2025-03-05"
+  },
+  {
+    "customer": "Timothy Reed",
+    "feedback": "Refund took too long.",
+    "rating": 2,
+    "category": "Returns",
+    "date": "2025-03-04"
+  },
+  {
+    "customer": "Deborah Cook",
+    "feedback": "Always my first choice for shopping.",
+    "rating": 5,
+    "category": "Loyalty",
+    "date": "2025-03-03"
+  },
+  {
+    "customer": "Jeffrey Morgan",
+    "feedback": "Product quality has declined.",
+    "rating": 2,
+    "category": "Quality",
+    "date": "2025-03-02"
+  },
+  {
+    "customer": "Jessica Bell",
+    "feedback": "Excellent return policy.",
+    "rating": 5,
+    "category": "Returns",
+    "date": "2025-03-01"
+  },
+  {
+    "customer": "Ryan Murphy",
+    "feedback": "Mobile app needs dark mode.",
+    "rating": 3,
+    "category": "App",
+    "date": "2025-02-28"
+  },
+  {
+    "customer": "Angela Bailey",
+    "feedback": "Prices increased suddenly.",
+    "rating": 2,
+    "category": "Pricing",
+    "date": "2025-02-27"
+  },
+  {
+    "customer": "Jacob Rivera",
+    "feedback": "Knowledgeable support staff.",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-02-26"
+  },
+  {
+    "customer": "Helen Cooper",
+    "feedback": "Product was smaller than expected.",
+    "rating": 3,
+    "category": "Product",
+    "date": "2025-02-25"
+  },
+  {
+    "customer": "Nicholas Richardson",
+    "feedback": "Sustainable packaging appreciated.",
+    "rating": 5,
+    "category": "Sustainability",
+    "date": "2025-02-24"
+  },
+  {
+    "customer": "Amy Cox",
+    "feedback": "Website search needs improvement.",
+    "rating": 2,
+    "category": "Usability",
+    "date": "2025-02-23"
+  },
+  {
+    "customer": "Eric Howard",
+    "feedback": "Fast response to my complaint.",
+    "rating": 4,
+    "category": "Service",
+    "date": "2025-02-22"
+  },
+  {
+    "customer": "Anna Ward",
+    "feedback": "Product instructions were missing.",
+    "rating": 2,
+    "category": "Documentation",
+    "date": "2025-02-21"
+  },
+  {
+    "customer": "Stephen Torres",
+    "feedback": "Good value for the price.",
+    "rating": 4,
+    "category": "Pricing",
+    "date": "2025-02-20"
+  },
+  {
+    "customer": "Brenda Peterson",
+    "feedback": "Website loads very slowly.",
+    "rating": 1,
+    "category": "Performance",
+    "date": "2025-02-19"
+  },
+  {
+    "customer": "Joshua Gray",
+    "feedback": "Excellent product durability.",
+    "rating": 5,
+    "category": "Quality",
+    "date": "2025-02-18"
+  },
+  {
+    "customer": "Pamela Ramirez",
+    "feedback": "Hard to unsubscribe from emails.",
+    "rating": 2,
+    "category": "Communication",
+    "date": "2025-02-17"
+  },
+  {
+    "customer": "Andrew James",
+    "feedback": "Smooth checkout experience.",
+    "rating": 5,
+    "category": "Checkout",
+    "date": "2025-02-16"
+  },
+  {
+    "customer": "Nicole Watson",
+    "feedback": "Product color was different than shown.",
+    "rating": 3,
+    "category": "Product",
+    "date": "2025-02-15"
+  },
+  {
+    "customer": "Frank Brooks",
+    "feedback": "Loyal customer discounts are great.",
+    "rating": 5,
+    "category": "Loyalty",
+    "date": "2025-02-14"
+  },
+  {
+    "customer": "Katherine Kelly",
+    "feedback": "Poor quality control.",
+    "rating": 2,
+    "category": "Quality",
+    "date": "2025-02-13"
+  },
+  {
+    "customer": "Raymond Sanders",
+    "feedback": "Easy returns process.",
+    "rating": 4,
+    "category": "Returns",
+    "date": "2025-02-12"
+  },
+  {
+    "customer": "Virginia Price",
+    "feedback": "Too many pop-ups on website.",
+    "rating": 2,
+    "category": "Usability",
+    "date": "2025-02-11"
+  },
+  {
+    "customer": "Patrick Bennett",
+    "feedback": "Product arrived earlier than expected.",
+    "rating": 5,
+    "category": "Delivery",
+    "date": "2025-02-10"
+  },
+  {
+    "customer": "Catherine Wood",
+    "feedback": "Customer service was rude.",
+    "rating": 1,
+    "category": "Service",
+    "date": "2025-02-09"
+  },
+  {
+    "customer": "Jack Barnes",
+    "feedback": "Good selection of eco-friendly products.",
+    "rating": 4,
+    "category": "Sustainability",
+    "date": "2025-02-08"
+  },
+  {
+    "customer": "Rachel Ross",
+    "feedback": "Mobile app is user-friendly.",
+    "rating": 5,
+    "category": "App",
+    "date": "2025-02-07"
+  },
+  {
+    "customer": "Dennis Henderson",
+    "feedback": "Prices are competitive.",
+    "rating": 4,
+    "category": "Pricing",
+    "date": "2025-02-06"
+  },
+  {
+    "customer": "Janet Coleman",
+    "feedback": "Product didn't last long.",
+    "rating": 2,
+    "category": "Quality",
+    "date": "2025-02-05"
+  },
+  {
+    "customer": "Jerry Jenkins",
+    "feedback": "Quick resolution to my issue.",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-02-04"
+  },
+  {
+    "customer": "Emma Perry",
+    "feedback": "Website is not mobile-friendly.",
+    "rating": 2,
+    "category": "Design",
+    "date": "2025-02-03"
+  },
+  {
+    "customer": "Tyler Powell",
+    "feedback": "Great deals during sales.",
+    "rating": 5,
+    "category": "Pricing",
+    "date": "2025-02-02"
+  },
+  {
+    "customer": "Christine Long",
+    "feedback": "Product was exactly as described.",
+    "rating": 5,
+    "category": "Product",
+    "date": "2025-02-01"
+  },
+  {
+    "customer": "Aaron Hughes",
+    "feedback": "Shipping notification was late.",
+    "rating": 3,
+    "category": "Delivery",
+    "date": "2025-01-31"
+  },
+  {
+    "customer": "Amanda Flores",
+    "feedback": "Would recommend to others.",
+    "rating": 5,
+    "category": "Referral",
+    "date": "2025-01-30"
+  },
+  {
+    "customer": "Henry Washington",
+    "feedback": "Checkout had technical issues.",
+    "rating": 2,
+    "category": "Checkout",
+    "date": "2025-01-29"
+  },
+  {
+    "customer": "Marie Butler",
+    "feedback": "Product assembly was difficult.",
+    "rating": 3,
+    "category": "Product",
+    "date": "2025-01-28"
+  },
+  {
+    "customer": "Douglas Simmons",
+    "feedback": "Excellent warranty coverage.",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-01-27"
+  },
+  {
+    "customer": "Judith Foster",
+    "feedback": "Too many steps to create account.",
+    "rating": 2,
+    "category": "Usability",
+    "date": "2025-01-26"
+  },
+  {
+    "customer": "Peter Gonzales",
+    "feedback": "Fast and friendly service.",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-01-25"
+  },
+  {
+    "customer": "Megan Bryant",
+    "feedback": "Product was out of stock unexpectedly.",
+    "rating": 2,
+    "category": "Inventory",
+    "date": "2025-01-24"
+  },
+  {
+    "customer": "Walter Alexander",
+    "feedback": "Clear and honest product reviews.",
+    "rating": 5,
+    "category": "Content",
+    "date": "2025-01-23"
+  },
+  {
+    "customer": "Cheryl Russell",
+    "feedback": "Slow response to emails.",
+    "rating": 2,
+    "category": "Communication",
+    "date": "2025-01-22"
+  },
+  {
+    "customer": "Ethan Griffin",
+    "feedback": "Loyalty points system is fair.",
+    "rating": 4,
+    "category": "Loyalty",
+    "date": "2025-01-21"
+  },
+  {
+    "customer": "Alice Diaz",
+    "feedback": "Product was worth the wait.",
+    "rating": 4,
+    "category": "Product",
+    "date": "2025-01-20"
+  },
+  {
+    "customer": "Arthur Hayes",
+    "feedback": "Website security seems robust.",
+    "rating": 5,
+    "category": "Security",
+    "date": "2025-01-19"
+  },
+  {
+    "customer": "Rebecca Myers",
+    "feedback": "Product didn't match website description.",
+    "rating": 2,
+    "category": "Product",
+    "date": "2025-01-18"
+  },
+  {
+    "customer": "Kyle Ford",
+    "feedback": "Easy to track my order.",
+    "rating": 5,
+    "category": "Delivery",
+    "date": "2025-01-17"
+  },
+  {
+    "customer": "Olivia Hamilton",
+    "feedback": "Customer service went above and beyond.",
+    "rating": 5,
+    "category": "Service",
+    "date": "2025-01-16"
+  },
+  {
+    "customer": "Gerald Graham",
+    "feedback": "Product was overpriced.",
+    "rating": 2,
+    "category": "Pricing",
+    "date": "2025-01-15"
+  },
+  {
+    "customer": "Brittany Wallace",
+    "feedback": "App notifications are annoying.",
+    "rating": 2,
+    "category": "App",
+    "date": "2025-01-14"
+  },
+  {
+    "customer": "Keith West",
+    "feedback": "Product works perfectly.",
+    "rating": 5,
+    "category": "Product",
+    "date": "2025-01-13"
+  },
+  {
+    "customer": "Victoria Jordan",
+    "feedback": "Packaging was excessive.",
+    "rating": 3,
+    "category": "Sustainability",
+    "date": "2025-01-12"
+  },
+  {
+    "customer": "Samuel Owens",
+    "feedback": "Quick and easy returns.",
+    "rating": 5,
+    "category": "Returns",
+    "date": "2025-01-11"
+  },
+  {
+    "customer": "Lauren Hart",
+    "feedback": "Website layout is confusing.",
+    "rating": 2,
+    "category": "Design",
+    "date": "2025-01-10"
+  }
+]

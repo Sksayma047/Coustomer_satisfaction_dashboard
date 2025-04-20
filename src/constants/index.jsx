@@ -14,7 +14,18 @@ export const navbarLinks = [
             },
            
         ],
-    },
+    }, 
+    {
+        title: "Customer",
+        links: [
+            {
+                label: "Customer",
+                icon: Home,
+                path: "/customer",
+            },
+           
+        ],
+    }, 
     // {
     //     title: "Customers",
     //     links: [

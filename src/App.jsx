@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/contexts/theme-context";
 
 import Layout from "@/routes/layout";
 import DashboardPage from "@/routes/dashboard/page";
+import FeedbackTable from "@/routes/dashboard/FeedbackTable.jsx";
 
 function App() {
     const router = createBrowserRouter([
@@ -14,6 +15,10 @@ function App() {
                 {
                     index: true,
                     element: <DashboardPage />,
+                },
+                {
+                    path: "customer",
+                    element: <FeedbackTable />,
                 },
                 {
                     path: "analytics",
